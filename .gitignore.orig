@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+# custom files
+!custom/plugins/example
+!custom/example.zsh
+
+# temp files directories
+cache/
+log/
+||||||| merged common ancestors
+=======
+# custom files
+custom/
+!custom/plugins/example
+!custom/example.zsh
+
+# temp files directories
+cache/
+log/
+>>>>>>> oh_master

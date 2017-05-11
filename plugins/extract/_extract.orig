@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+#compdef extract
+#autoload
+
+_arguments \
+  '(-r --remove)'{-r,--remove}'[Remove archive.]' \
+  "*::archive file:_files -g '(#i)*.(tar|tgz|tbz|tbz2|txz|tlz|gz|bz2|xz|lzma|Z|zip|ipsw|rar|7z|deb)(-.)'" && return 0
+
+
+||||||| merged common ancestors
+=======
+#compdef extract
+#autoload
+
+_arguments \
+  '(-r --remove)'{-r,--remove}'[Remove archive.]' \
+  "*::archive file:_files -g '(#i)*.(7z|Z|apk|bz2|deb|gz|ipsw|jar|lzma|rar|sublime-package|tar|tar.bz2|tar.gz|tar.xz|tar.zma|tbz|tbz2|tgz|tlz|txz|war|xpi|xz|zip)(-.)'" \
+    && return 0
+>>>>>>> oh_master
